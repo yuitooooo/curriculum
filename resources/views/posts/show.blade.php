@@ -18,6 +18,11 @@
                 <h3>本文</h3>
                 <p>{{ $post->body }}</p>
             </div>
+        <div class="edit">
+            <h3>
+                <a href="/posts/{{ $post->id }}/edit">編集</a>
+            </h3>
+        </div>
         </div>
         <div class="fotter">
             <a href="/">戻る</a>
